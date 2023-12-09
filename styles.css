@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.square {
+    box-sizing: border-box;
+    width: 300px;
+    height: 150px;
+    border: 1px solid gray;
+    position: absolute;
+}
+
+.square1 {
+    background-color: aqua;
+}
+
+.square2 {
+    background-color: blueviolet;
+    right: 0;
+}
+
+.square3 {
+    background-color: cornflowerblue;
+    bottom: 0;
+}
+
+.square4 {
+    background-color: deeppink;
+    bottom: 0;
+    right: 0;
+}
+
+.square5 {
+    background-color: fuchsia;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
